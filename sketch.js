@@ -137,7 +137,9 @@ function draw() {
       touches = []
     }
   }
-  
+  if (mousePressedOver(restart){
+      gameState=PLAY;
+      }
   
   drawSprites();
 }
